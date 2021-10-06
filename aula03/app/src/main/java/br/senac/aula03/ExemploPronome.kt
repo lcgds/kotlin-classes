@@ -18,6 +18,8 @@ import android.widget.RadioGroup
      val groupPronome = findViewById<RadioGroup>(R.id.groupPronomes)
      val buttonCadastrar = findViewById<Button>(R.id.buttonCadastrar)
 
+         editNome.setText(intent.getStringExtra("nome"))
+
          buttonCadastrar.setOnClickListener {
              var genero = ""
 

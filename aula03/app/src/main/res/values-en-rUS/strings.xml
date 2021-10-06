@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nome">Name</string>
+    <string name="telefone">Phone</string>
+    <string name="confirmar">Confirm</string>
+    <string name="erro">Error</string>
+    <string name="tipo_de_contato">Label</string>
+    <string name="preencha_todos_os_campos">Fill all the fields</string>
+    <string name="bemvindo">Welcome</string>
+    <string name="selecione">Select</string>
+    <string name="residencial">Home</string>
+    <string name="comercial">Work</string>
+    <string name="celular">Mobile</string>
+    <string name="outro">Other</string>
+</resources>

@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">aula03</string>
+    <string name="app_name" translatable="false">Aula 3</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="erro">Erro</string>
+    <string name="tipo_de_contato">Tipo de contato</string>
+    <string name="preencha_todos_os_campos">Preencha todos os campos</string>
+    <string name="bemvindo">Bem-vindo</string>
+    <string name="selecione">Selecione</string>
+    <string name="residencial">Residencial</string>
+    <string name="comercial">Comercial</string>
+    <string name="celular">Celular</string>
+    <string name="outro">Outro</string>
 </resources>

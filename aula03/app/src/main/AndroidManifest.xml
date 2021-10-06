@@ -10,8 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aula03">
         <activity
-            android:name=".PreferenciaContatoActivity"
+            android:name=".QuestionActivity"
+            android:exported="true"
+            android:parentActivityName=".QuizActivity">
+            <intent-filter>
+                <action android:name="br.senac.aula03.QuestionActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".QuizActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="br.senac.aula03.QuizActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Atividades">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,14 +39,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ExemploPronome"
-            android:exported="true">
+            android:name=".ImageActivity"
+            android:exported="true"
+            android:label="Imagem">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="br.senac.aula03.ImageActivity" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DataHoraActivity"
+            android:exported="true"
+            android:label="Data e hora" />
+        <activity
+            android:name=".TipoTelefoneActivity"
+            android:exported="true"
+            android:label="Tipo de telefone" />
+        <activity
+            android:name=".PreferenciaContatoActivity"
+            android:exported="true"
+            android:label="Preferência de contato" />
+        <activity
+            android:name=".ExemploPronome"
+            android:exported="true"
+            android:label="Pronome"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
